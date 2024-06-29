@@ -39,7 +39,19 @@ To install and run the project, follow these steps:
 ```
 pip install -r requirements.txt
 ```
-3. Run the application:
+3. Download the `ONNX_models` and `Tesseract_OCR` folders from the provided Google Drive links:
+    - [Download ONNX_models](https://drive.google.com/drive/folders/1ldVCpX-sMke2SJi5yXpVtbXfa5s13h0Y?usp=sharing)
+    - [Download Tesseract_OCR](https://drive.google.com/drive/folders/1QimCAPxLnpvBfEwo-ZqUE-_XmMZiTfdD?usp=sharing)
+
+4. Extract and place the `ONNX_models` and `Tesseract_OCR` folders into the main project directory:
+    ```bash
+    Super-Resolution-OCR-GUI/
+    ├── ONNX_models/
+    ├── Tesseract_OCR/
+    ├── main.py
+    └── ...
+    ```
+5. Run the application:
 ```
 python app.py
 ```
